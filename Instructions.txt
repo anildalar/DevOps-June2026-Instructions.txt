@@ -1,0 +1,44 @@
+1. Win + R
+2. cmd enter
+3. Terminal/CommandPrompt/Shell
+4. wsl 		-l         -v
+   command    option1     option2
+   Commands
+5. wsl -l -o
+   wsl --list  --online
+6. cls (Clear Screen)(Window OS Command)
+7. wsl --install Debian
+
+Distros = Distribution = Variation
+
+8. Create a user with same username and password
+
+username=anil
+password=anil
+
+9. C:\>  Windows Operating System
+10. anil@************* $ Linux Operating System
+
+11. Update your OS
+	sudo apt update -y
+12. Upgrade your OS
+	sudo apt upgrade -y
+
+	apt = Advanced Package Tool
+13. How to clear the console in Linux ?
+	13.1  clear
+	13.2   ctrl + L (Clear Logs)
+
+14. whoami
+	Linux is a Multi User OS
+14. How many types of Linux User Avaiable
+	1. Normal User  ($)
+		anil
+	2. Root User (#)
+15. Exit from Linux
+	exit
+16. wsl -d Debian -u root
+
+17. wsl --help
+18. wsl --unregister Debian
+
