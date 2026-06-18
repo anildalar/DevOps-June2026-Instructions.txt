@@ -42,3 +42,95 @@ password=anil
 17. wsl --help
 18. wsl --unregister Debian
 
+19. I want to jump from normal user to root user 
+	anil($)-------> root(#)
+	Less Permissions--------> Full Permission
+	19.1.sudo su
+	     s=switch u=user
+	19.2  wsl -d Ubuntu -u root
+		  d=distribution
+
+20. How to create new Linux user ? (Create)
+
+Syntax/Formula
+	useradd <username>
+	
+Example
+	useradd sunil
+
+21. How to display the list of created user? (Show)
+
+cat /etc/passwd
+
+username = sunil
+password = sunil
+
+22. How to create files in Linux Os ?
+
+Syntax
+ 	touch <fileName>
+Example
+	touch anil.txt
+		anil=filename  .txt = Extension
+
+
+23 . Display the list of files or directory ?
+
+	ls -al
+
+-rwxrwxrwx 	1 	anil 	anil        0 Jun 18 03:00  anil.txt
+column1    	column2     column3
+permissionstring
+- = file
+d = directory
+
+24 . How to create a directory in Linux OS ?
+
+Syntax 
+	mkdir <dirName>
+Example
+	mkdir  oklabs
+
+
+drwxrwxrwx 1 anil anil      512 Jun 18 03:06  oklabs
+-rwxrwxrwx 1 anil anil        0 Jun 18 03:00  anil.txt
+
+-=file
+d=directory
+
+
+25. Which Linux OS you are working on ?
+
+uname -a
+
+cat /etc/os-release
+
+concatenation
+
+26. How to check the storage capacity of your HDD
+
+GB = GigaByte
+	1GB
+	2GB
+	4GB
+	8GB ~ 7.7Gi
+	16GB
+	32GB
+	64GB
+	128GB
+	256GB ~ 255G
+TB = TeraByte
+
+
+
+Computer Resources
+1. Storage
+	HDD (Hard Disk Drive)
+	df  -H  (Human Redable)
+	df  --help
+	cmd opt1
+2. Memory
+	RAM (Random Access Memory)
+	free -h
+3. CPU (Central Processing Unit Brain)
+	lscpu
