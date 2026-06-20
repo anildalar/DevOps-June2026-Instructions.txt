@@ -251,7 +251,7 @@ mkdir 20june_2026  Incorrect
 	      D
 		E
 
-
+mkdir -p A/B/C/D
 
 
 cls 	= clear
