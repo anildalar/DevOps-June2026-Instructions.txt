@@ -189,3 +189,54 @@ You must ask some question
 2. I want to go my home
 	cd ~  (Tilde)
 	cd
+
+32. How to set password for a specific user in Linux ?
+
+Syntax
+	passwd <username>
+Example
+	passwd anil
+
+anil
+
+Anil@1234
+Sunil@1234
+
+
+33. Get the complete information about your system ?
+
+Software
+	OS Detail
+	Kernel Detail
+Hardaware
+	RAM
+	CPU
+	HDD
+
+
+34. Type of Address in Linux ?
+
+	34.1   Relative Address   ----> ./
+		 cd ./june20_2026
+	34.2   Absolute Address   ---->  /
+		 cd /home/anil/june20_2026
+
+
+
+. = Symbol
+
+
+mkdir june20_2026  Correct
+mkdir 20june_2026  Incorrect
+
+
+
+35. How to create nested directories in a single command ?
+
+	A
+	  B
+	    C
+	      D
+		E
+
+
