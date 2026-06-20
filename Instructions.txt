@@ -21,6 +21,7 @@ password=anil
 
 11. Update your OS
 	sudo apt update -y
+	sudo yum update -y
 12. Upgrade your OS
 	sudo apt upgrade -y
 
@@ -32,15 +33,17 @@ password=anil
 14. whoami
 	Linux is a Multi User OS
 14. How many types of Linux User Avaiable
-	1. Normal User  ($)
+	1. Normal User  ($) (Limited Permission)
 		anil
-	2. Root User (#)
+	2. Root User (#) (Full Permision)
 15. Exit from Linux
 	exit
 16. wsl -d Debian -u root
 
 17. wsl --help
-18. wsl --unregister Debian
+
+18. How to remove Linux distro using WSL ?
+Ans wsl --unregister Debian
 
 19. I want to jump from normal user to root user 
 	anil($)-------> root(#)
@@ -109,6 +112,12 @@ concatenation
 
 26. How to check the storage capacity of your HDD
 
+
+1024 Bytes = 1 KB
+1024 KiloBtype = 1 MegaByte
+1024 MegaByte = 1 GigaByte
+1024 GigaByte = 1 Terabyte
+
 GB = GigaByte
 	1GB
 	2GB
@@ -121,10 +130,12 @@ GB = GigaByte
 	256GB ~ 255G
 TB = TeraByte
 
+
+
 Computer Resources
 1. Storage
 	HDD (Hard Disk Drive)
-	df  -H  (Human Redable)
+	df  -H  (Human Readable)
 	df  --help
 	cmd opt1
 2. Memory
@@ -190,6 +201,7 @@ You must ask some question
 	cd ~  (Tilde)
 	cd
 
+
 32. How to set password for a specific user in Linux ?
 
 Syntax
@@ -239,4 +251,54 @@ mkdir 20june_2026  Incorrect
 	      D
 		E
 
+
+
+
+cls 	= clear
+windows = Linux 
+
+Ubuntu OS is a child OS of Debian
+
+WindowsOs -------> LinuxOS
+C:/>
+
+Linux OS is a multi user os.
+1. anil
+2. sunil
+3. kiran
+
+Linux Users
+There are 3 Types of Linux User
+1. Root
+	wsl -d Ubuntu -u root
+2. SystemUser
+3. Normal User
+	3.1 anil
+
+Linux Commands
+1. whoami
+2. pwd (Present Working directory)
+3. I want to go my home
+	cd ~(Tilde)
+	cd
+4. ls -al
+-rw-r--r-- 1 anil anil  807 Jun  8 03:08 .profile
+drw-r--r-- 1 anil anil  807 Jun  8 03:08 abc
+-rw-r--r-- = Permission String
+
+
+d = directory
+- = file
+
+WSL = Windows Subsystem Linux
+
+
+Q. How to install Apache webserver ?
+
+Ans. sudo apt install apache2
+
+Q. How to check if apache is running or not ?
+
+Ans. sudo systemctl status apache2
+     sudo service apache2 status 
 
